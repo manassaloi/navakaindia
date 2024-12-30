@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+vendor/
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 

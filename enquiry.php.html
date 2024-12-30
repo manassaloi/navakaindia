@@ -1,0 +1,458 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!-- 
+
+
+-->
+    <head>
+        <meta charset="utf-8">
+        <title>Navaka India</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+        <link rel="stylesheet" href="css/templatemo_misc.css">
+        <link rel="stylesheet" href="css/flexslider.css">
+        <link rel="stylesheet" href="css/testimonails-slider.css">
+
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+		<script>
+
+function LTrim( value ) {
+
+var re = /\s*((\S+\s*)*)/;
+
+return value.replace(re, "$1");
+
+}
+
+// Removes ending whitespaces
+
+function RTrim( value ) {
+
+var re = /((\s*\S+)*)\s*/;
+
+return value.replace(re, "$1");
+
+}
+
+// Removes leading and ending whitespaces
+
+function trim( value ) {
+
+return LTrim(RTrim(value));
+
+}// JavaScript Document
+
+function validate_contact()
+
+{
+
+ if(trim(document.getElementById("Name").value)=="")
+
+{
+
+alert("Please enter contact Name.");
+
+document.getElementById("Name").focus();
+
+return false;
+
+}
+
+   else if(trim(document.getElementById("Email").value)=="")
+
+{
+
+alert("Please Enter Email address.");
+
+document.getElementById("Email").focus();
+
+return false;
+
+}
+
+if(!validEmail(document.getElementById("Email").value))
+
+{
+
+alert("Please Enter Correct Email Address.");
+
+document.getElementById("Email").focus();
+
+return false;
+
+}
+
+else if(trim(document.getElementById("Message").value)=="")
+
+{
+
+alert("Please enter Enquiry.");
+
+document.getElementById("Message").focus();
+
+return false;
+
+}
+
+document.getElementById("contact").submit();
+
+}
+
+function validEmail(Paddress) 
+
+{
+
+var Vre;
+
+var Vret;
+
+Vre = /^[a-zA-Z0-9_\-\.]+@([a-zA-Z0-9\-]+\.)+[a-zA-Z]{2,4}$/;
+
+Vret = Paddress.search(Vre);
+
+if(Vret == 0)
+
+{
+
+return true;
+
+}
+
+else
+
+{
+
+return false
+
+}
+
+}
+
+</script>
+    </head>
+    <body>
+
+            <header>
+                <div id="top-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="home-account">
+                                    <a href="index.html">HOME</a>
+                                    <a href="enquiry.php.html">CONTACT / ENQUIRY</a>
+                                </div>
+                            </div>
+							<div class="col-md-7">
+                                <div class="home-account">
+                                    <i class="fa fa-mobile"></i> <a href="enquiry.php.html#">+ 91 9831153177 / + 91 8187835161</a>
+									<i class="fa fa-envelope"></i> <a href="mailto:jithesh@navakaindia.com">jithesh@navakaindia.com</a>/ <a href="mailto:mohan1001@gmail.com">mohan1001@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="cart-info">
+                                   Follow us on <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a> <a href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.png" title="Grill Template" alt="Grill Website Template" ></a>
+                                </div>
+                            </div>
+                            <div class="col-md-11">
+                                <div class="main-menu">
+                                    <ul>
+                                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+                                        <li><a href="profile.html">PROFILE</a></li>
+                                        <li><a href="cri-industrial-pumps.html">CRI INDUSTRIAL PUMPS</a></li>
+                                        <li><a href="leakproof-pumps.html">LEAKPROOF PUMPS</a></li>
+										<li><a href="roto-pumps.html">ROTO PUMPS</a></li>
+										<li><a href="rotodel-pumps.html">ROTODEL PUMPS</a></li>
+										<li><a href="agricultural-machine.html">AGRICULTURAL MACHINE</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+
+<div id="heading">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-content">
+                                <h2>Contact & Enquiry</h2>
+                                <span>Home / <a href="enquiry.php.html">CONTACT</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+			<div id="timeline-post">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-section">
+                                <h1>Contact & Enquiry</h1>
+                                <img src="images/under-heading.png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                      <div class="col-md-6">
+                        	<h3>Contact @</h3>
+                            <h3 style="color:#CC0000;">NAVAKA INDIA</h3>
+                        <p> <strong>KRISHNA KRIPA</strong><br>
+                          19, ARCHANANAGAR, 
+KUNIAMUTHUR<br>
+COIMBATORE. 641008</p>
+                            <p><strong>Email :</strong></p>
+                            <ul>
+                              <li> <a href="mailto:mohan1001@gmail.com">mohan1001@gmail.com</a></li>
+                              <li><a href="mailto:jithesh@navakaindia.com">jithesh@navakaindia.com</a></li>
+                              <li>
+                                <a href="mailto:mohan@navakaindia.com">mohan@navakaindia.com</a> </li>
+                               <li>
+                                <a href="mailto:rajiv@navakaindia.com">rajiv@navakaindia.com</a> </li>   
+                            </ul>
+                            <p><strong>Phone :&nbsp;</strong></p>
+                            <ul>
+                              <li>+ 91 9831153177</li>
+                              <li>+  91 8187835161</li>
+                            </ul>
+                            <p>&nbsp;</p>
+                            <h4 style="color: #0066CC;">Cochin  Office</h4>
+                            <h3 style="color:#CC0000;"> NAVAKA  INDIA</h3>
+                        <p> Cochin  - 600016<br>
+                          <strong>Phone : 0 </strong>9207558777</p>
+                            <p><strong>Email : </strong></p>
+                            <ul>
+                              <li><a href="mailto:vjbnair@gmail.com">vjbnair@gmail.com</a> </li>
+                              <li><a href="mailto:jithesh@navakaindia.com">jithesh@navakaindia.com</a></li>
+                            </ul>
+                      </div>
+                        <div class="col-md-6">
+                        	<h3>Enquiry Form</h3>
+<form method="post" enctype="multipart/form-data" action="https://navakaindia.com/contact.php" name="contact" id="contact">
+
+<table width="100%" height="236" class="text">
+
+ <tr>
+
+  <td>Contact Person:</td>
+
+  <td><input type=text name="Name" size="39" id="Name"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>Company:</td>
+
+  <td><input type=text name="Company" size="39"  id="Company"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>City:</td>
+
+  <td><input type=text name="City" size="39"  id="City"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>State:</td>
+
+  <td><input type=text name="State" size="39"  id="State"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>Email:</td>
+
+  <td><input type=text name="Email" size="39"  id="Email"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>Phone:</td>
+
+  <td>   <input type=text name="Phone" size="39"  id="Phone"></td>
+
+ </tr>
+
+ <tr>
+
+  <td>Enquiry:</td>
+
+  <td>
+
+
+  <textarea name="Message" cols="30" rows="2"  id="Message"></textarea></td>
+
+ </tr>
+
+<tr>
+
+<td>
+<td>
+
+</td> 
+<tr>
+
+  <td colspan="2">
+
+  <p align="center" style="margin-left: 30"><input type="submit" value="Submit"  onClick="return validate_contact();"><input type="reset"></td>
+
+ </tr>
+
+</table>
+
+
+</form>                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="heading-section">
+                                <h2>PRODUCTS RANGE</h2>
+                                <img src="images/under-heading.png" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <img src="images/products-range1.jpg" alt="" />
+                                <h4>CRI INDUSTRIAL PUMPS</h4>
+								<a href="cri-industrial-pumps.html">More Details</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <img src="images/products-range3.jpg" alt="" />
+                                <h4>ROTO PUMPS</h4>
+								<a href="roto-pumps.html">More Details</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="service-item">
+                                <img src="images/products-range4.jpg" alt="" />
+                                <h4>AGRICULTURAL MACHINE</h4>
+								<a href="agricultural-machine.html">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+			<footer>
+                <div class="container">
+                  <div class="main-footer">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="about">
+                                    <h4 class="footer-title">Quality Assurance</h4>
+                                    <ul type="disc">
+                                      <li>Owing to the priority to serve  quality products, various stringent quality tests are conducted under the  supervision of our quality control executives.</li>
+                                      <li>To update and apply the latest  project and data management technologies.                                      </li>
+                                      <li>To analyze the specific problems  of our clients and suggest optimal state of the art solutions technically and  economically.                                      </li>
+                                      <li>Individuals are responsible for  achieving their assigned objectives.                                      </li>
+                                      <li>Acting as a single window  supplier sourcing and supply against&nbsp; all pumping requirement of a specific  project</li>
+                                  </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="shop-list">
+                                    <h4 class="footer-title">Products</h4>
+                                    <ul>
+                                        <li><i class="fa fa-angle-right"></i> New Grill Menu</li>
+                                      	<li><i class="fa fa-angle-right"></i> Progressive Cavity Pumps and Twin screw Pumps</li>
+                                        <li><i class="fa fa-angle-right"></i> Butemen Duty SS Hoses</li>
+                                        <li><i class="fa fa-angle-right"></i> Radcoflex Flexible Hoses</li>
+                                        <li><i class="fa fa-angle-right"></i> Bentone Burners</li>
+                                        <li><i class="fa fa-angle-right"></i> Strainers & Filters</li>
+                                        <li><i class="fa fa-angle-right"></i> Submersible Sludge Pumps</li>
+                                        <li><i class="fa fa-angle-right"></i> Rotary Gear Pumps</li>
+                                        <li><i class="fa fa-angle-right"></i> Polypropelene Acid Pumps</li>
+                                        <li><i class="fa fa-angle-right"></i> Cutter / Grinder Pumps</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="more-info">
+                                    <h4 class="footer-title">Company info</h4>
+                                    <p>Established in the year 2016, at the Pump City, Coimbatore,(Tamil Nadu) ,India, we, Navaka India the Authorized  dealer for Roto Pumps, CRI-Tuff range of pumps. Rotodel Gear Pumps and Leakproof Chemical pumps.</p>
+                                    <ul>
+                                        <li><i class="fa fa-mobile"></i>+ 91 9831153177 / + 91 8187835161</li>
+                                        <li><i class="fa fa-globe"></i>KRISHNA KRIPA, 19, ARCHANANAGAR, KUNIAMUTHUR, COIMBATORE. 641008</li>
+                                        <li><i class="fa fa-envelope"></i><a href="mailto:mohan1001@gmail.com">mohan1001@gmail.com</a> / <a href="mailto:jithesh@navakaindia.com">jithesh@navakaindia.com</a> / <a href="mailto:mohan@navakaindia.com">mohan@navakaindia.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-footer">
+						<div class="col-md-5">
+                           <div class="more-info">
+                      		  <p>
+                        	<span>All rights reserved © Navaka India, 2017</span></p>
+						</div>
+					  </div>
+					  <div class="col-md-2">
+                           <div class="more-info">
+                      		  <p>
+                        	<span><img src="images/qr-code.png"></span></p>
+						</div>
+					  </div>
+					  	<div class="col-md-5">
+                           <div class="more-info">
+                      		  <p style="float:right;">Promoted  by : <a href="http://www.yellowpageskolkata.com" target="_blank"> <img src="images/ypk-logo.png"></p>
+						</div>
+					  </div>
+
+                    </div>
+                    
+                </div>
+            </footer>
+
+    
+        <script src="js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="js/vendor/jquery.gmap3.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
