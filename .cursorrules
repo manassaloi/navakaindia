@@ -5,8 +5,7 @@
 - **Goal:** Modernize the existing Navaka India website (HTML, CSS, JavaScript) without using a static site generator.
 - **Focus:** Improve code structure, maintainability, performance, and user experience.
 - **Constraints:** Stick to HTML, CSS, and JavaScript; avoid introducing new frameworks unless absolutely necessary for modernization.
-
-At the end of every completed step record your work log in @progress.md file. 
+- **Must do:** At the end of every completed step record your work log in @progress.md file. 
 What features we implemented? What errors we encountered? How did we fixed all those errors.
 Answer these 3 questions in a step by step manner and DO NOT miss any information.
 
