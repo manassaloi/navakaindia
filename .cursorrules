@@ -1,0 +1,124 @@
+# .cursorrules for Navaka India Website Refactoring
+
+## Project Overview
+
+- **Goal:** Modernize the existing Navaka India website (HTML, CSS, JavaScript) without using a static site generator.
+- **Focus:** Improve code structure, maintainability, performance, and user experience.
+- **Constraints:** Stick to HTML, CSS, and JavaScript; avoid introducing new frameworks unless absolutely necessary for modernization.
+
+At the end of every completed step record your work log in @progress.md file. 
+What features we implemented? What errors we encountered? How did we fixed all those errors.
+Answer these 3 questions in a step by step manner and DO NOT miss any information.
+
+## Existing Structure
+
+- **Root:** `manassaloi-navakaindia/`
+- **HTML:**
+    - `index.html` (main page)
+    - `profile.html`
+    - `cri-industrial-pumps.html`
+    - `leakproof-pumps.html`
+    - `roto-pumps.html`
+    - `rotodel-pumps.html`
+    - `agricultural-machine.html`
+    - `enquiry.php.html` (likely a typo, should be `.php` or `.html`)
+- **CSS:** `css/`
+    - `bootstrap.css`
+    - `flexslider.css`
+    - `font-awesome.css`
+    - `testimonails-slider.css`
+    - `templatemo_style.css`
+    - `templatemo_misc.css`
+- **JavaScript:** `js/`
+    - `footer-loader.js`
+    - `plugins.js`
+    - `main.js`
+- **Fonts:** `fonts/` (Font Awesome)
+- **Images:** `images/`
+- **Includes:** `includes/`
+    - `footer.html`
+
+## Refactoring Tasks (High Priority)
+
+1. **HTML:**
+    *   Update to HTML5 doctype and semantic elements.
+    *   Remove inline styles and scripts.
+    *   Improve SEO with proper meta tags.
+    *   Validate HTML.
+2. **CSS:**
+    *   Consolidate and organize CSS files.
+    *   Implement responsive design using media queries (mobile-first approach).
+    *   Modernize typography and styling.
+    *   Optimize images.
+3. **JavaScript:**
+    *   Update jQuery to the latest version.
+    *   Modernize JavaScript code (ES6+ if possible).
+    *   Optimize performance (minify, defer/async loading).
+
+## Coding Style and Preferences
+
+- **HTML:**
+    - Use HTML5 semantic elements.
+    - Indentation: 4 spaces.
+    - Attribute quotes: Double quotes.
+- **CSS:**
+    - Indentation: 4 spaces.
+    - Use descriptive class names (BEM methodology is preferred if introducing new classes).
+    - Consider using a CSS preprocessor like Sass (optional).
+- **JavaScript:**
+    - Indentation: 4 spaces.
+    - Use `const` and `let` instead of `var`.
+    - Use arrow functions where appropriate.
+    - Follow a consistent coding style (e.g., Airbnb JavaScript Style Guide).
+
+## Specific Instructions for Cursor
+
+- **@** **index.html:** When working on `index.html`, prioritize updating the main navigation, slider, and introductory sections.
+- **@** **css:** When modifying CSS, ensure changes are reflected across all relevant pages. Focus on creating a responsive design.
+- **@** **js:** When updating JavaScript, pay attention to the `main.js` file, which likely contains the core logic.
+- **@** **footer-loader.js:** This script loads the footer. Ensure it continues to function correctly after refactoring.
+- **@** **images:** Optimize images for web performance.
+- **@** **enquiry.php.html:** Clarify if this should be a `.php` or `.html` file. If it's intended to be `.php`, ensure the server-side code is functional.
+- **@** **plugins.js:** This likely contains third-party plugins. Update them if necessary and ensure they are compatible with the latest jQuery version.
+- **@** **.js:** When working with javascript files, try to use ES6+ features.
+
+## Additional Notes
+
+- The website uses jQuery and some jQuery plugins (Flexslider, potentially others).
+- The website uses Font Awesome for icons.
+- The current design is somewhat outdated. Strive for a more modern look and feel.
+- Prioritize performance optimization throughout the refactoring process.
+
+## Testing
+
+- Test changes thoroughly on different browsers and devices.
+- Use browser developer tools to debug and optimize.
+content_copy
+download
+Use code with caution.
+
+How to Use This File:
+
+Save: Save this content as a file named .cursorrules in the root directory of your project (manassaloi-navakaindia/).
+
+Cursor Integration: Cursor will automatically detect and use this file to provide more context-aware assistance as you work on the project.
+
+Reference: Refer back to this file as you work through the refactoring tasks to ensure you're staying on track with the project goals and guidelines.
+
+Key Improvements in this .cursorrules file:
+
+Clear Project Overview: Provides a concise summary of the project's goals, focus, and constraints.
+
+Detailed Structure: Outlines the existing file structure, making it easier for Cursor to understand the project's organization.
+
+Prioritized Tasks: Highlights the most important refactoring tasks for each area (HTML, CSS, JavaScript).
+
+Coding Style Guide: Specifies coding style preferences to ensure consistency throughout the project.
+
+Specific Instructions: Uses @ mentions to provide targeted guidance for specific files and directories.
+
+Additional Notes: Includes important observations about the project, such as the use of jQuery, Font Awesome, and the need for a more modern design.
+
+Testing: Emphasizes the importance of thorough testing.
+
+This comprehensive .cursorrules file will be a valuable asset as you refactor the Navaka India website using Cursor. Remember to update it if you make any significant changes to the project's structure or goals. Good luck with your project!
